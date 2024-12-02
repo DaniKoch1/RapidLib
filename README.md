@@ -15,3 +15,5 @@
 RapidLib is a lightweight library for interactive machine learning. It currently features classification (using kNN), regression (multilayer perceptron), and series classification (using dynamic time warping).
 
 ## More at: [https://mzed.github.io/RapidLib/](https://mzed.github.io/RapidLib/)
+
+test
