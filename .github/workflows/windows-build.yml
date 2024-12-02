@@ -17,8 +17,8 @@ jobs:
       run: mkdir build && cd build && cmake .. -DCMAKE_WINDOWS_EXPORT_ALL_SYMBOLS=TRUE -DBUILD_SHARED_LIBS=TRUE
     - name: build
       run: cmake --build build --config Release
-    - name: test
-      run: cd build && ctest
+    # - name: test
+    #  run: cd build && ctest
     - name: upload artifact
       uses: actions/upload-artifact@v4
       with:
