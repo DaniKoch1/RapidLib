@@ -19,3 +19,8 @@ jobs:
       run: cmake --build build --config Debug
     - name: test
       run: cd build && ctest
+    - name: upload artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: build-artifact
+        path: build
